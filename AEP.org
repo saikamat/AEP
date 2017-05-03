@@ -1,0 +1,15 @@
+* OpenCV functions to be converted
+** TODO [#A] Thresholding
+** TODO [#A] Matrix cv::Mat
+** TODO [#B] Count non-zero
+** TODO [#C] Box Functions 
+
+* Parallel Functions
+* TASKS
+** TODO [#A] Check out thin_zheng_suen_original_iterator for parallelisation.[Saptarshi]
+** TODO [#A] Porting of OpenCV Library [Aditya]
+** TODO [#A] Hardware overview knowledge and some testing [Sai]
+** TODO [#A] Camera hardware overview and some testing [Amar]
+** TODO [#B] Check the parallelisation tutorial and do some testing [Monami]
+
+* Linux Drivers 
