@@ -7,6 +7,7 @@
 * Parallel Functions
 * TASKS
 ** TODO [#A] Check out thin_zheng_suen_original_iterator for parallelisation.[Saptarshi]
+*** TODO [#A] Check out the block paraleilsation using threads.
 ** TODO [#A] Porting of OpenCV Library [Aditya]
 ** TODO [#A] Hardware overview knowledge and some testing [Sai]
 ** TODO [#A] Camera hardware overview and some testing [Amar]
