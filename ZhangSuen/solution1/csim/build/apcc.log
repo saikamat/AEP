@@ -1,5 +1,0 @@
-@I [HLS-10] Running '/home/saptarshi/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/lnx64.o/apcc'
-            for user 'root' on host 'saptarshi-ThinkPad-X240' (Linux_x86_64 version 4.8.0-58-generic) on Sun Jul 02 13:48:29 CEST 2017
-            in directory '/home/saptarshi/Documents/AEP/ZhangSuen/solution1/csim/build'
-@I [APCC-3] Tmp directory is /tmp/apcc_db_root/265401498996109996071
-@I [APCC-1] APCC is done.

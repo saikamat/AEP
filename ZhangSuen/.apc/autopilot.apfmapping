@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
-  <source>
-    <originFiles name="zhangsueng.c" path="/home/saptarshi/Documents/AEP/zhangsueng.c"/>
-  </source>
-  <testbench>
-    <originFiles name="test_zhangsueng.c" path="/home/saptarshi/Documents/AEP/ZhangSuen/.settings/test_zhangsueng.c"/>
-  </testbench>
-</autopilotfilemapping:AutoPilotFileMapping>
