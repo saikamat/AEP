@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Tue Jul  4 16:38:28 2017
+# Process ID: 6129
+# Current directory: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/HW_DMA_Lab_V2/HW_DMA_Lab_V2.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/HW_DMA_Lab_V2/HW_DMA_Lab_V2.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/HW_DMA_Lab_V2/HW_DMA_Lab_V2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

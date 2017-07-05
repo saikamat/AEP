@@ -1,0 +1,5 @@
+   Build using "/opt/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin/g++"
+   Compiling test_core_gain.cpp_pre.cpp.tb.cpp
+   Compiling apatb_doGain.cpp
+   Compiling core_gain.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

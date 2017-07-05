@@ -1,0 +1,756 @@
+16:42:16 **** Build of project SW_SMA_Lab_V2_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/doGain_v1_0/src
+make -C ps7_cortexa9_0/libsrc/doGain_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_0/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/doGain_v1_0/src
+make -C ps7_cortexa9_0/libsrc/doGain_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling doGain
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_0/src
+make -C ps7_cortexa9_0/libsrc/axidma_v9_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling axidma
+In file included from xaxidma.h:470:0,
+                 from xaxidma.c:83:
+xaxidma.c: In function 'XAxiDma_Reset':
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:313:3: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+   XAxiDma_BdRingSnapShotCurrBd(TxRingPtr);
+   ^
+xaxidma_bdring.h:238:26: warning: assignment makes pointer from integer without a cast
+    (RingPtr)->BdaRestart =      \
+                          ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:243:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+xaxidma_bdring.h:248:27: warning: assignment makes pointer from integer without a cast
+     (RingPtr)->BdaRestart =     \
+                           ^
+xaxidma.c:319:4: note: in expansion of macro 'XAxiDma_BdRingSnapShotCurrBd'
+    XAxiDma_BdRingSnapShotCurrBd(RxRingPtr);
+    ^
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Finished building libraries
+16:42:24 **** Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19388	   1152	  22572	  43112	   a868	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+16:42:47 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/platform.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.cc"
+Finished building: ../src/platform.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  34100	   2192	  22636	  58928	   e630	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+16:43:07 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+16:43:35 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:01 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:02 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 111344	   2396	  24796	 138536	  21d28	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+16:46:17 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:47:56 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+16:49:37 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:47:28 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:48:00 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:49:38 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:50:33 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:51:59 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+17:52:25 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:00:59 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:02:16 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 111344	   2396	  24796	 138536	  21d28	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:04:18 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:32:37 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:33:34 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:36:56 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:32 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:37:49 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:39:52 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:41:44 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:46:25 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:47:17 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:47:53 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:51:05 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:51:19 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:51:31 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:52:35 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:52:53 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+18:57:47 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+18:58:05 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:39:10 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:36 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:42:46 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:56:21: error: 'ARRAY_SIZE' was not declared in this scope
+  for(int i = 0; i < ARRAY_SIZE; i++) {
+                     ^
+../src/main.cc:57:3: error: 'inStreamData' was not declared in this scope
+   inStreamData[i] = i*4;
+   ^
+../src/main.cc:69:29: error: 'inStreamData' was not declared in this scope
+   Xil_DCacheFlushRange((u32)inStreamData, ARRAY_SIZE*sizeof(int));
+                             ^
+../src/main.cc:69:43: error: 'ARRAY_SIZE' was not declared in this scope
+   Xil_DCacheFlushRange((u32)inStreamData, ARRAY_SIZE*sizeof(int));
+                                           ^
+../src/main.cc:80:3: error: expected ')' before 'while'
+   while(XAxiDma_Busy(&axiDMA,XAXIDMA_DEVICE_TO_DMA));
+   ^
+../src/main.cc:51:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+19:42:58 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:81:3: error: expected ')' before 'while'
+   while(XAxiDma_Busy(&axiDMA,XAXIDMA_DEVICE_TO_DMA));
+   ^
+../src/main.cc:52:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+19:44:46 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:81:3: error: expected ')' before 'while'
+   while(XAxiDma_Busy(&axiDMA,XAXIDMA_DEVICE_TO_DMA));
+   ^
+../src/main.cc:52:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+19:45:46 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:82:3: error: expected ')' before 'while'
+   while(XAxiDma_Busy(&axiDMA,XAXIDMA_DEVICE_TO_DMA));
+   ^
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+19:46:03 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:46:13 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:58:21: error: 'ARRAY_SIZE' was not declared in this scope
+  for(int i = 0; i < ARRAY_SIZE; i++) {
+                     ^
+../src/main.cc:59:3: error: 'inStreamData' was not declared in this scope
+   inStreamData[i] = i*4;
+   ^
+../src/main.cc:71:29: error: 'inStreamData' was not declared in this scope
+   Xil_DCacheFlushRange((u32)inStreamData, ARRAY_SIZE*sizeof(int));
+                             ^
+../src/main.cc:71:43: error: 'ARRAY_SIZE' was not declared in this scope
+   Xil_DCacheFlushRange((u32)inStreamData, ARRAY_SIZE*sizeof(int));
+                                           ^
+../src/main.cc:53:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+       ^
+make: *** [src/main.o] Error 1
+19:46:30 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79324	 422392	  24396	 526112	  80720	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:46:52 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:48:19 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:49:43 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:50:32 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:51 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:37 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:57:20 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79324	 422392	  24396	 526112	  80720	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:57:30 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+19:58:36 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79324	 422392	  24396	 526112	  80720	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:58:46 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	 422392	  24396	 526048	  806e0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:58:49 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	 422392	  24396	 526048	  806e0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+19:59:45 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:02:57 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	   2392	  24796	 106448	  19fd0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+20:04:31 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:05:30 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79196	   2392	  24796	 106384	  19f90	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+20:05:39 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+20:06:39 **** Auto Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+Building file: ../src/main.cc
+Invoking: ARM g++ compiler
+arm-xilinx-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cc"
+../src/main.cc: In function 'int main()':
+../src/main.cc:54:7: warning: unused variable 'm_dma_buf_tx' [-Wunused-variable]
+  int *m_dma_buf_tx = (int*) TX_BUF_ADDR;
+       ^
+Finished building: ../src/main.cc
+ 
+Building target: SW_SMA_Lab_V2.elf
+Invoking: ARM g++ linker
+arm-xilinx-eabi-g++ -Wl,-T -Wl,../src/lscript.ld -L../../SW_SMA_Lab_V2_bsp/ps7_cortexa9_0/lib -o "SW_SMA_Lab_V2.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_SMA_Lab_V2.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size SW_SMA_Lab_V2.elf  |tee "SW_SMA_Lab_V2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79260	 422392	  24396	 526048	  806e0	SW_SMA_Lab_V2.elf
+Finished building: SW_SMA_Lab_V2.elf.size
+ 
+20:06:47 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.
+10:11:11 **** Incremental Build of configuration Debug for project SW_SMA_Lab_V2 ****
+make all 
+make: Nothing to be done for 'all'.

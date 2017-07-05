@@ -1,0 +1,269 @@
+ outpUt val = 0 
+ outpUt val = 5 
+ outpUt val = 10 
+ outpUt val = 15 
+ outpUt val = 20 
+ outpUt val = 25 
+ outpUt val = 30 
+ outpUt val = 35 
+ outpUt val = 40 
+ outpUt val = 45 
+ outpUt val = 50 
+ outpUt val = 55 
+ outpUt val = 60 
+ outpUt val = 65 
+ outpUt val = 70 
+ outpUt val = 75 
+ outpUt val = 80 
+ outpUt val = 85 
+ outpUt val = 90 
+ outpUt val = 95 
+ outpUt val = 100 
+ outpUt val = 105 
+ outpUt val = 110 
+ outpUt val = 115 
+ outpUt val = 120 
+ outpUt val = 125 
+ outpUt val = 130 
+ outpUt val = 135 
+ outpUt val = 140 
+ outpUt val = 145 
+ outpUt val = 150 
+ outpUt val = 155 
+ outpUt val = 160 
+ outpUt val = 165 
+ outpUt val = 170 
+ outpUt val = 175 
+ outpUt val = 180 
+ outpUt val = 185 
+ outpUt val = 190 
+ outpUt val = 195 
+ outpUt val = 200 
+ outpUt val = 205 
+ outpUt val = 210 
+ outpUt val = 215 
+ outpUt val = 220 
+ outpUt val = 225 
+ outpUt val = 230 
+ outpUt val = 235 
+ outpUt val = 240 
+ outpUt val = 245 
+ outpUt val = 250 
+ outpUt val = 255 
+ outpUt val = 260 
+ outpUt val = 265 
+ outpUt val = 270 
+ outpUt val = 275 
+ outpUt val = 280 
+ outpUt val = 285 
+ outpUt val = 290 
+ outpUt val = 295 
+ outpUt val = 300 
+ outpUt val = 305 
+ outpUt val = 310 
+ outpUt val = 315 
+ outpUt val = 320 
+ outpUt val = 325 
+ outpUt val = 330 
+ outpUt val = 335 
+ outpUt val = 340 
+ outpUt val = 345 
+ outpUt val = 350 
+ outpUt val = 355 
+ outpUt val = 360 
+ outpUt val = 365 
+ outpUt val = 370 
+ outpUt val = 375 
+ outpUt val = 380 
+ outpUt val = 385 
+ outpUt val = 390 
+ outpUt val = 395 
+ outpUt val = 400 
+ outpUt val = 405 
+ outpUt val = 410 
+ outpUt val = 415 
+ outpUt val = 420 
+ outpUt val = 425 
+ outpUt val = 430 
+ outpUt val = 435 
+ outpUt val = 440 
+ outpUt val = 445 
+ outpUt val = 450 
+ outpUt val = 455 
+ outpUt val = 460 
+ outpUt val = 465 
+ outpUt val = 470 
+ outpUt val = 475 
+ outpUt val = 480 
+ outpUt val = 485 
+ outpUt val = 490 
+ outpUt val = 495 
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_doGain_top -prj doGain.prj --lib ieee_proposed=./ieee_proposed -s doGain 
+Multi-threading is on. Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module doGain
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/AESL_axi_slave_CRTL_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTL_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/AESL_axi_s_inStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_inStream
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain_mul_32s_32s_32_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module doGain_mul_32s_32s_32_6_MulnS_0
+INFO: [VRFC 10-311] analyzing module doGain_mul_32s_32s_32_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain_CRTL_BUS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module doGain_CRTL_BUS_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/AESL_axi_s_outStream.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_outStream
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_doGain_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.autotb.v:227]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.autotb.v:228]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n_n, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.autotb.v:252]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.doGain_CRTL_BUS_s_axi(C_S_AXI_AD...
+Compiling module xil_defaultlib.doGain_mul_32s_32s_32_6_MulnS_0
+Compiling module xil_defaultlib.doGain_mul_32s_32s_32_6(ID=1,NUM...
+Compiling module xil_defaultlib.doGain_default
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=32)
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=4)
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=2)
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=1)
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=5)
+Compiling module xil_defaultlib.fifo(DEPTH=100,WIDTH=6)
+Compiling module xil_defaultlib.AESL_axi_s_inStream
+Compiling module xil_defaultlib.AESL_axi_s_outStream
+Compiling module xil_defaultlib.AESL_axi_slave_CRTL_BUS
+Compiling module xil_defaultlib.apatb_doGain_top
+Built simulation snapshot doGain
+
+****** Webtalk v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/xsim.dir/doGain/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Jul  2 21:01:53 2017...
+
+****** xsim v2015.4 (64-bit)
+  **** SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+  **** IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/doGain/xsim_script.tcl
+# xsim {doGain} -maxdeltaid 10000 -autoloadwcfg -tclbatch {doGain.tcl}
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+source doGain.tcl
+## run all
+$finish called at time : 1525 ns : File "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/solution1/sim/verilog/doGain.autotb.v" Line 509
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Jul  2 21:01:56 2017...
+ outpUt val = 0 
+ outpUt val = 5 
+ outpUt val = 10 
+ outpUt val = 15 
+ outpUt val = 20 
+ outpUt val = 25 
+ outpUt val = 30 
+ outpUt val = 35 
+ outpUt val = 40 
+ outpUt val = 45 
+ outpUt val = 50 
+ outpUt val = 55 
+ outpUt val = 60 
+ outpUt val = 65 
+ outpUt val = 70 
+ outpUt val = 75 
+ outpUt val = 80 
+ outpUt val = 85 
+ outpUt val = 90 
+ outpUt val = 95 
+ outpUt val = 100 
+ outpUt val = 105 
+ outpUt val = 110 
+ outpUt val = 115 
+ outpUt val = 120 
+ outpUt val = 125 
+ outpUt val = 130 
+ outpUt val = 135 
+ outpUt val = 140 
+ outpUt val = 145 
+ outpUt val = 150 
+ outpUt val = 155 
+ outpUt val = 160 
+ outpUt val = 165 
+ outpUt val = 170 
+ outpUt val = 175 
+ outpUt val = 180 
+ outpUt val = 185 
+ outpUt val = 190 
+ outpUt val = 195 
+ outpUt val = 200 
+ outpUt val = 205 
+ outpUt val = 210 
+ outpUt val = 215 
+ outpUt val = 220 
+ outpUt val = 225 
+ outpUt val = 230 
+ outpUt val = 235 
+ outpUt val = 240 
+ outpUt val = 245 
+ outpUt val = 250 
+ outpUt val = 255 
+ outpUt val = 260 
+ outpUt val = 265 
+ outpUt val = 270 
+ outpUt val = 275 
+ outpUt val = 280 
+ outpUt val = 285 
+ outpUt val = 290 
+ outpUt val = 295 
+ outpUt val = 300 
+ outpUt val = 305 
+ outpUt val = 310 
+ outpUt val = 315 
+ outpUt val = 320 
+ outpUt val = 325 
+ outpUt val = 330 
+ outpUt val = 335 
+ outpUt val = 340 
+ outpUt val = 345 
+ outpUt val = 350 
+ outpUt val = 355 
+ outpUt val = 360 
+ outpUt val = 365 
+ outpUt val = 370 
+ outpUt val = 375 
+ outpUt val = 380 
+ outpUt val = 385 
+ outpUt val = 390 
+ outpUt val = 395 
+ outpUt val = 400 
+ outpUt val = 405 
+ outpUt val = 410 
+ outpUt val = 415 
+ outpUt val = 420 
+ outpUt val = 425 
+ outpUt val = 430 
+ outpUt val = 435 
+ outpUt val = 440 
+ outpUt val = 445 
+ outpUt val = 450 
+ outpUt val = 455 
+ outpUt val = 460 
+ outpUt val = 465 
+ outpUt val = 470 
+ outpUt val = 475 
+ outpUt val = 480 
+ outpUt val = 485 
+ outpUt val = 490 
+ outpUt val = 495 

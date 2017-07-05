@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="595" key="DIALOG_X_ORIGIN"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="669" key="dialogHeight"/>
+		<item value="1194" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="columns">
+			<item value="306"/>
+			<item value="612"/>
+		</list>
+		<list key="bounds">
+			<item value="520"/>
+			<item value="140"/>
+			<item value="964"/>
+			<item value="660"/>
+		</list>
+	</section>
+	<section name="ShowViewDialog">
+		<item value="378" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="org.eclipse.ui.navigator.ProjectExplorer" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
+		<item value="443" key="DIALOG_HEIGHT"/>
+		<item value="738" key="DIALOG_X_ORIGIN"/>
+		<item value="247" key="DIALOG_Y_ORIGIN"/>
+		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui"/>
+		</list>
+	</section>
+</section>

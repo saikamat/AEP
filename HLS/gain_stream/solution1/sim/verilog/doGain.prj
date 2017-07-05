@@ -1,0 +1,9 @@
+verilog xil_defaultlib "doGain.v"
+verilog xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+verilog xil_defaultlib "AESL_axi_s_inStream.v"
+verilog xil_defaultlib "doGain_mul_32s_32s_32_6.v"
+verilog xil_defaultlib "doGain_CRTL_BUS_s_axi.v"
+verilog xil_defaultlib "AESL_axi_s_outStream.v"
+verilog xil_defaultlib "doGain.autotb.v"
+verilog xil_defaultlib "AESL_fifo.v"
+

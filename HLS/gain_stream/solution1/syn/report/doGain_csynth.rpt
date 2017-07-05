@@ -1,0 +1,180 @@
+
+
+================================================================
+== Vivado HLS Report for 'doGain'
+================================================================
+* Date:           Wed Jul  5 17:33:05 2017
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        gain_stream
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      6.08|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  601|  601|  602|  602|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  600|  600|         6|          -|          -|   100|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     11|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        0|      4|      74|    104|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     10|
+|Register         |        -|      -|      76|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      4|     150|    125|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      1|   ~0   |   ~0  |
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------+-------------------------+---------+-------+----+-----+
+    |          Instance          |          Module         | BRAM_18K| DSP48E| FF | LUT |
+    +----------------------------+-------------------------+---------+-------+----+-----+
+    |doGain_CRTL_BUS_s_axi_U     |doGain_CRTL_BUS_s_axi    |        0|      0|  74|  104|
+    |doGain_mul_32s_32s_32_6_U1  |doGain_mul_32s_32s_32_6  |        0|      4|   0|    0|
+    +----------------------------+-------------------------+---------+-------+----+-----+
+    |Total                       |                         |        0|      4|  74|  104|
+    +----------------------------+-------------------------+---------+-------+----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------+----------+-------+---+----+------------+------------+
+    |    Variable Name   | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |i_1_fu_130_p2       |     +    |      0|  0|   7|           7|           1|
+    |ap_sig_bdd_106      |    and   |      0|  0|   1|           1|           1|
+    |exitcond_fu_124_p2  |   icmp   |      0|  0|   3|           7|           6|
+    +--------------------+----------+-------+---+----+------------+------------+
+    |Total               |          |      0|  0|  11|          15|           8|
+    +--------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------------------+----+-----------+-----+-----------+
+    |               Name              | LUT| Input Size| Bits| Total Bits|
+    +---------------------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm                        |   2|          8|    1|          8|
+    |ap_sig_ioackin_outStream_TREADY  |   1|          2|    1|          2|
+    |i_reg_113                        |   7|          2|    7|         14|
+    +---------------------------------+----+-----------+-----+-----------+
+    |Total                            |  10|         12|    9|         24|
+    +---------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------+----+----+-----+-----------+
+    |               Name              | FF | LUT| Bits| Const Bits|
+    +---------------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                        |   7|   0|    7|          0|
+    |ap_reg_ioackin_outStream_TREADY  |   1|   0|    1|          0|
+    |gain_read_reg_170                |  32|   0|   32|          0|
+    |i_1_reg_178                      |   7|   0|    7|          0|
+    |i_reg_113                        |   7|   0|    7|          0|
+    |tmp_dest_V_reg_213               |   6|   0|    6|          0|
+    |tmp_id_V_reg_208                 |   5|   0|    5|          0|
+    |tmp_keep_V_reg_188               |   4|   0|    4|          0|
+    |tmp_last_V_reg_203               |   1|   0|    1|          0|
+    |tmp_strb_V_reg_193               |   4|   0|    4|          0|
+    |tmp_user_V_reg_198               |   2|   0|    2|          0|
+    +---------------------------------+----+----+-----+-----------+
+    |Total                            |  76|   0|   76|          0|
+    +---------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+--------------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  |    Source Object   |    C Type    |
++------------------------+-----+-----+------------+--------------------+--------------+
+|s_axi_CRTL_BUS_AWVALID  |  in |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_AWREADY  | out |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_AWADDR   |  in |    5|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_WVALID   |  in |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_WREADY   | out |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_WDATA    |  in |   32|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_WSTRB    |  in |    4|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_ARVALID  |  in |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_ARREADY  | out |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_ARADDR   |  in |    5|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_RVALID   | out |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_RREADY   |  in |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_RDATA    | out |   32|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_RRESP    | out |    2|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_BVALID   | out |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_BREADY   |  in |    1|    s_axi   |      CRTL_BUS      |    scalar    |
+|s_axi_CRTL_BUS_BRESP    | out |    2|    s_axi   |      CRTL_BUS      |    scalar    |
+|ap_clk                  |  in |    1| ap_ctrl_hs |       doGain       | return value |
+|ap_rst_n                |  in |    1| ap_ctrl_hs |       doGain       | return value |
+|interrupt               | out |    1| ap_ctrl_hs |       doGain       | return value |
+|inStream_TDATA          |  in |   32|    axis    |  inStream_V_data_V |    pointer   |
+|inStream_TVALID         |  in |    1|    axis    |  inStream_V_data_V |    pointer   |
+|inStream_TREADY         | out |    1|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TDEST          |  in |    6|    axis    |  inStream_V_dest_V |    pointer   |
+|inStream_TKEEP          |  in |    4|    axis    |  inStream_V_keep_V |    pointer   |
+|inStream_TSTRB          |  in |    4|    axis    |  inStream_V_strb_V |    pointer   |
+|inStream_TUSER          |  in |    2|    axis    |  inStream_V_user_V |    pointer   |
+|inStream_TLAST          |  in |    1|    axis    |  inStream_V_last_V |    pointer   |
+|inStream_TID            |  in |    5|    axis    |   inStream_V_id_V  |    pointer   |
+|outStream_TDATA         | out |   32|    axis    | outStream_V_data_V |    pointer   |
+|outStream_TVALID        | out |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TREADY        |  in |    1|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TDEST         | out |    6|    axis    | outStream_V_dest_V |    pointer   |
+|outStream_TKEEP         | out |    4|    axis    | outStream_V_keep_V |    pointer   |
+|outStream_TSTRB         | out |    4|    axis    | outStream_V_strb_V |    pointer   |
+|outStream_TUSER         | out |    2|    axis    | outStream_V_user_V |    pointer   |
+|outStream_TLAST         | out |    1|    axis    | outStream_V_last_V |    pointer   |
+|outStream_TID           | out |    5|    axis    |  outStream_V_id_V  |    pointer   |
++------------------------+-----+-----+------------+--------------------+--------------+
+

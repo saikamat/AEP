@@ -1,0 +1,260 @@
+
+
+================================================================
+== Vivado HLS Report for 'doGain'
+================================================================
+* Date:           Wed Jul  5 17:33:05 2017
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        gain_stream
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      6.08|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  601|  601|  602|  602|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  600|  600|         6|          -|          -|   100|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 7
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	2  / true
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_8 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap(i32* %inStream_V_data_V), !map !7
+
+ST_1: stg_9 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecBitsMap(i4* %inStream_V_keep_V), !map !11
+
+ST_1: stg_10 [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i4* %inStream_V_strb_V), !map !15
+
+ST_1: stg_11 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecBitsMap(i2* %inStream_V_user_V), !map !19
+
+ST_1: stg_12 [1/1] 0.00ns
+:4  call void (...)* @_ssdm_op_SpecBitsMap(i1* %inStream_V_last_V), !map !23
+
+ST_1: stg_13 [1/1] 0.00ns
+:5  call void (...)* @_ssdm_op_SpecBitsMap(i5* %inStream_V_id_V), !map !27
+
+ST_1: stg_14 [1/1] 0.00ns
+:6  call void (...)* @_ssdm_op_SpecBitsMap(i6* %inStream_V_dest_V), !map !31
+
+ST_1: stg_15 [1/1] 0.00ns
+:7  call void (...)* @_ssdm_op_SpecBitsMap(i32* %outStream_V_data_V), !map !35
+
+ST_1: stg_16 [1/1] 0.00ns
+:8  call void (...)* @_ssdm_op_SpecBitsMap(i4* %outStream_V_keep_V), !map !39
+
+ST_1: stg_17 [1/1] 0.00ns
+:9  call void (...)* @_ssdm_op_SpecBitsMap(i4* %outStream_V_strb_V), !map !43
+
+ST_1: stg_18 [1/1] 0.00ns
+:10  call void (...)* @_ssdm_op_SpecBitsMap(i2* %outStream_V_user_V), !map !47
+
+ST_1: stg_19 [1/1] 0.00ns
+:11  call void (...)* @_ssdm_op_SpecBitsMap(i1* %outStream_V_last_V), !map !51
+
+ST_1: stg_20 [1/1] 0.00ns
+:12  call void (...)* @_ssdm_op_SpecBitsMap(i5* %outStream_V_id_V), !map !55
+
+ST_1: stg_21 [1/1] 0.00ns
+:13  call void (...)* @_ssdm_op_SpecBitsMap(i6* %outStream_V_dest_V), !map !59
+
+ST_1: stg_22 [1/1] 0.00ns
+:14  call void (...)* @_ssdm_op_SpecBitsMap(i32 %gain), !map !63
+
+ST_1: stg_23 [1/1] 0.00ns
+:15  call void (...)* @_ssdm_op_SpecTopModule([7 x i8]* @doGain_str) nounwind
+
+ST_1: gain_read [1/1] 1.00ns
+:16  %gain_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %gain)
+
+ST_1: stg_25 [1/1] 0.00ns
+:17  call void (...)* @_ssdm_op_SpecInterface(i32* %outStream_V_data_V, i4* %outStream_V_keep_V, i4* %outStream_V_strb_V, i2* %outStream_V_user_V, i1* %outStream_V_last_V, i5* %outStream_V_id_V, i6* %outStream_V_dest_V, [5 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_26 [1/1] 0.00ns
+:18  call void (...)* @_ssdm_op_SpecInterface(i32* %inStream_V_data_V, i4* %inStream_V_keep_V, i4* %inStream_V_strb_V, i2* %inStream_V_user_V, i1* %inStream_V_last_V, i5* %inStream_V_id_V, i6* %inStream_V_dest_V, [5 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_27 [1/1] 0.00ns
+:19  call void (...)* @_ssdm_op_SpecInterface(i32 %gain, [10 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_28 [1/1] 0.00ns
+:20  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_29 [1/1] 1.57ns
+:21  br label %1
+
+
+ <State 2>: 6.08ns
+ST_2: i [1/1] 0.00ns
+:0  %i = phi i7 [ 0, %0 ], [ %i_1, %2 ]
+
+ST_2: exitcond [1/1] 1.97ns
+:1  %exitcond = icmp eq i7 %i, -28
+
+ST_2: empty [1/1] 0.00ns
+:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 100, i64 100, i64 100)
+
+ST_2: i_1 [1/1] 1.72ns
+:3  %i_1 = add i7 %i, 1
+
+ST_2: stg_34 [1/1] 0.00ns
+:4  br i1 %exitcond, label %3, label %2
+
+ST_2: empty_2 [1/1] 0.00ns
+:0  %empty_2 = call { i32, i4, i4, i2, i1, i5, i6 } @_ssdm_op_Read.axis.volatile.i32P.i4P.i4P.i2P.i1P.i5P.i6P(i32* %inStream_V_data_V, i4* %inStream_V_keep_V, i4* %inStream_V_strb_V, i2* %inStream_V_user_V, i1* %inStream_V_last_V, i5* %inStream_V_id_V, i6* %inStream_V_dest_V)
+
+ST_2: tmp_data_V [1/1] 0.00ns
+:1  %tmp_data_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 0
+
+ST_2: tmp_keep_V [1/1] 0.00ns
+:2  %tmp_keep_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 1
+
+ST_2: tmp_strb_V [1/1] 0.00ns
+:3  %tmp_strb_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 2
+
+ST_2: tmp_user_V [1/1] 0.00ns
+:4  %tmp_user_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 3
+
+ST_2: tmp_last_V [1/1] 0.00ns
+:5  %tmp_last_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 4
+
+ST_2: tmp_id_V [1/1] 0.00ns
+:6  %tmp_id_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 5
+
+ST_2: tmp_dest_V [1/1] 0.00ns
+:7  %tmp_dest_V = extractvalue { i32, i4, i4, i2, i1, i5, i6 } %empty_2, 6
+
+ST_2: tmp_data_V_1 [6/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+ST_2: stg_44 [1/1] 0.00ns
+:0  ret void
+
+
+ <State 3>: 6.08ns
+ST_3: tmp_data_V_1 [5/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+
+ <State 4>: 6.08ns
+ST_4: tmp_data_V_1 [4/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+
+ <State 5>: 6.08ns
+ST_5: tmp_data_V_1 [3/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+
+ <State 6>: 6.08ns
+ST_6: tmp_data_V_1 [2/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+
+ <State 7>: 6.08ns
+ST_7: tmp_data_V_1 [1/6] 6.08ns
+:8  %tmp_data_V_1 = mul i32 %tmp_data_V, %gain_read
+
+ST_7: stg_50 [1/1] 0.00ns
+:9  call void @_ssdm_op_Write.axis.volatile.i32P.i4P.i4P.i2P.i1P.i5P.i6P(i32* %outStream_V_data_V, i4* %outStream_V_keep_V, i4* %outStream_V_strb_V, i2* %outStream_V_user_V, i1* %outStream_V_last_V, i5* %outStream_V_id_V, i6* %outStream_V_dest_V, i32 %tmp_data_V_1, i4 %tmp_keep_V, i4 %tmp_strb_V, i2 %tmp_user_V, i1 %tmp_last_V, i5 %tmp_id_V, i6 %tmp_dest_V)
+
+ST_7: stg_51 [1/1] 0.00ns
+:10  br label %1
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

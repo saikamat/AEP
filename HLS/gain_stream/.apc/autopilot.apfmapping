@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="core_gain.cpp" path="/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/.apc/core_gain.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="test_core_gain.cpp" path="/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/Xilinx_Workspace/gain_stream/test_core_gain.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
