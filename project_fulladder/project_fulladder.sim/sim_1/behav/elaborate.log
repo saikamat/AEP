@@ -1,0 +1,14 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /home/saptarshi/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab -wto 7c86d043f90448d7bfa183dc92b39c34 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Full_Adder_tb_behav xil_defaultlib.Full_Adder_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.FullAdder [fulladder_default]
+Compiling architecture behavioral of entity xil_defaultlib.full_adder_tb
+Built simulation snapshot Full_Adder_tb_behav

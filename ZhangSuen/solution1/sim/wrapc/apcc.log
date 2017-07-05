@@ -1,0 +1,7 @@
+@I [HLS-10] Running '/home/saptarshi/Xilinx/Vivado_HLS/2015.4/bin/unwrapped/lnx64.o/apcc'
+            for user 'root' on host 'saptarshi-ThinkPad-X240' (Linux_x86_64 version 4.8.0-58-generic) on Sun Jul 02 13:51:50 CEST 2017
+            in directory '/home/saptarshi/Documents/AEP/ZhangSuen/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+@I [APCC-3] Tmp directory is /tmp/apcc_db_root/271831498996310731296
+@I [APCC-1] APCC is done.

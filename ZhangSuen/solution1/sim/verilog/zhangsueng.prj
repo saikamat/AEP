@@ -1,0 +1,3 @@
+verilog xil_defaultlib "zhangsueng.autotb.v"
+verilog xil_defaultlib "zhangsueng.v"
+
