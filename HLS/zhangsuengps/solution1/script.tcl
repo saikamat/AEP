@@ -6,11 +6,12 @@
 open_project zhangsuengps
 set_top psfunc
 add_files zhangsuengps/.settings/psfunc.cpp
+add_files -tb zhangsuengps/solution1/test.cpp
 open_solution "solution1"
 set_part {xc7z020clg484-1}
 create_clock -period 10 -name default
 #source "./zhangsuengps/solution1/directives.tcl"
-#csim_design
+csim_design
 csynth_design
-#cosim_design
+cosim_design
 export_design -format ip_catalog

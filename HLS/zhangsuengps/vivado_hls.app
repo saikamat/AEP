@@ -1,12 +1,13 @@
 <project xmlns="com.autoesl.autopilot.project" name="zhangsuengps" top="psfunc">
+    <files>
+        <file name="zhangsuengps/.settings/psfunc.cpp" sc="0" tb="false" cflags=""/>
+        <file name="../solution1/test.cpp" sc="0" tb="1" cflags=""/>
+    </files>
     <includePaths/>
     <libraryPaths/>
     <Simulation>
-        <SimFlow name="csim"/>
+        <SimFlow name="csim" csimMode="0" lastCsimMode="0"/>
     </Simulation>
-    <files xmlns="">
-        <file name="zhangsuengps/.settings/psfunc.cpp" sc="0" tb="false" cflags=""/>
-    </files>
     <solutions xmlns="">
         <solution name="solution1" status="active"/>
     </solutions>

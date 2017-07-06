@@ -1,22 +1,51 @@
-int psfunc(unsigned char* skeldata,int row,int col,int cols)
+#include <hls_stream.h>
+#include <ap_axi_sdata.h>
+
+typedef ap_axis<32,2,5,6> intSdCh;
+
+void psfunc(hls::stream<intSdCh> &inStream,hls::stream<intSdCh> &outStream,int interrupt) {
+#pragma HLS INTERFACE axis port=outStream
+#pragma HLS INTERFACE axis port=inStream
+#pragma HLS INTERFACE s_axilite port=interrupt bundle=CRTL_BUS
+#pragma HLS INTERFACE s_axilite port=return bundle=CRTL_BUS
+
+intSdCh pixel[9];
+intSdCh opresult;
+
+// I am taking input here
+/*
+ * pixel[0]=P9;
+ * pixel[1]=P2;
+ * pixel[2]=P3;
+ * pixel[3]=P8;
+ * pixel[4]=P1;
+ * pixel[5]=P4;
+ * pixel[6]=P7;
+ * pixel[7]=P6;
+ * pixel[8]=P5;
+ */
+for (int i=0;i<9;i++)
 {
-	int p2 = skeldata[(row-1)*cols +col];
-	int p3 = skeldata[(row-1)*cols +col+1];
-	int p4 = skeldata[row     * cols + col+1];
-	int p5 = skeldata[(row+1) * cols + col+1];
-	int p6 = skeldata[(row+1) * cols + col];
-	int p7 = skeldata[(row+1) * cols + col-1];
-	int p8 = skeldata[row     * cols + col-1];
-	int p9 = skeldata[(row-1) * cols + col-1];
+#pragma HLS PIPELINE
+	pixel[i]=inStream.read();
+	if(pixel[i].data>0)
+		pixel[i].data=1;
+	else pixel[i].data=0;
+}
 
-	int A  = (!p2 && p3) + (!p3 && p4) +(!p4 && p5) + (!p5 && p6) +(!p6 && p7) + (!p7 && p8) +(!p8 && p9) + (!p9 && p2);
-	int B  = p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9;
-	int m1 = (p2 * p4 * p6);
-	int m2 = (p4 * p6 * p8);
+// Configure the opresult variable
+opresult.keep =pixel[0].keep;
+opresult.strb =pixel[0].strb;
+opresult.user =pixel[0].user;
+opresult.last =pixel[0].last;
+opresult.id =  pixel[0].id;
+opresult.dest =pixel[0].dest;
 
-    return ( (A==1) &  ((B >= 2) & ( B <= 6 ) )& (!m1 & !m2));
-
-//    return ( (A==1) && ( (B >= 0x02) && ( B <= 0x06 ) )& (!m1 && !m2));
-
-//	return 0;
+//Do calculations
+unsigned char  A=(!pixel[1].data && pixel[2].data) + (!pixel[2].data && pixel[5].data) +(!pixel[5].data && pixel[8].data) + (!pixel[8].data && pixel[7].data) + (!pixel[7].data && pixel[6].data) + (!pixel[6].data && pixel[3].data) + (!pixel[3].data && pixel[0].data) + (!pixel[0].data && pixel[1].data);
+unsigned char  B=pixel[1].data+pixel[2].data+pixel[5].data+pixel[8].data+pixel[7].data+pixel[6].data+pixel[3].data+pixel[0].data;
+unsigned char  m1=pixel[1].data*pixel[5].data*pixel[7].data;
+unsigned char  m2=pixel[5].data*pixel[7].data*pixel[3].data;
+opresult.data=(A == 1 && (B >= 2 && B <= 6) && !m1 && !m2);
+outStream.write(opresult);
 }

@@ -29,37 +29,42 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/.apc/.src</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/.apc/.tb</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/solution1/.tcls</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/psfunc.cpp</name>
 			<type>1</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/.settings/psfunc.cpp</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/.settings/psfunc.cpp</location>
+		</link>
+		<link>
+			<name>testbench/test.cpp</name>
+			<type>1</type>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/test.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/solution1/solution1.directive</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/solution1/directives.tcl</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/saptarshi/Documents/AEP/zhangsuengps/solution1/script.tcl</location>
+			<location>/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

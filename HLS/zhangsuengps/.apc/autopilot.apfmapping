@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="psfunc.cpp" path="/home/saptarshi/Documents/AEP/zhangsuengps/.settings/psfunc.cpp"/>
+    <originFiles name="psfunc.cpp" path="/home/saptarshi/Documents/AEP/HLS/zhangsuengps/.settings/psfunc.cpp"/>
   </source>
-  <testbench/>
+  <testbench>
+    <originFiles name="test.cpp" path="/home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/test.cpp"/>
+  </testbench>
 </autopilotfilemapping:AutoPilotFileMapping>

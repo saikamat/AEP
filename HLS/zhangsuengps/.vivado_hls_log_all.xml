@@ -2,14 +2,16 @@
 <vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
   <errorLogs>
     <logs>
-      <synLog>
-        <logs message="@E [HLS-70] Synthesizability check failed." projectName="zhangsuengps" solutionName="solution1" date="2017-07-05T17:49:33.496+0200"/>
-        <logs message="@E [SYNCHK-61] zhangsuengps/.settings/psfunc.cpp:3: unsupported memory access on variable 'skeldata' which is (or contains) an array with unknown size at compile time." projectName="zhangsuengps" solutionName="solution1" date="2017-07-05T17:49:33.482+0200"/>
-      </synLog>
+      <synLog/>
       <simLog/>
       <mgLog/>
       <packageLog/>
-      <csimLog/>
+      <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-06T03:37:47.104+0200"/>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-06T03:34:57.653+0200"/>
+        <logs message="@E [SIM-1] CSim failed with errors.&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-06T03:24:50.821+0200"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="zhangsuengps" solutionName="solution1" date="2017-07-06T03:24:50.788+0200"/>
+      </csimLog>
     </logs>
   </errorLogs>
   <warningLogs>

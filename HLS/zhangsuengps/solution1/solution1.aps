@@ -2,11 +2,14 @@
     <downStreamTool>
         <DownStreamTool name=""/>
     </downStreamTool>
+    <clockList>
+        <clock default="false" name="default" period="10"/>
+    </clockList>
     <config>
         <schedule model="psfunc"/>
     </config>
     <UIConfigurations>
-        <UIAutosynConf boardInfo="ZedBoard Zynq Evaluation and Development Kit (xc7z020clg484-1) " hideTrivialOp="true" isBasedOnBoard="true" isSolutionDirty="false" isStopAskAgain="false" showDetailDesignViewer="false">
+        <UIAutosynConf boardInfo="ZedBoard Zynq Evaluation and Development Kit (xc7z020clg484-1) " hideTrivialOp="true" isBasedOnBoard="true" isSolutionDirty="true" isStopAskAgain="false" showDetailDesignViewer="false">
             <Platform>xilinx/zynq/zynq</Platform>
             <Platform>xilinx/zynq/zynq_fpv6</Platform>
             <customLibs/>
@@ -64,8 +67,5 @@
         <library name="DefaultPlatform" value="xilinx/zynq/zynq"/>
         <library name="DefaultPlatform" value="xilinx/zynq/zynq_fpv6"/>
     </libraryList>
-    <clockList>
-        <clock name="default" default="false" period="10"/>
-    </clockList>
 </solution>
 
