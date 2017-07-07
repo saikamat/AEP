@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-07T23:54:19.470+0200"/>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-07T23:49:04.434+0200"/>
+        <logs message="@E [SIM-1] 'csim_design' failed: compilation error(s).&#xA;4&#xA;    while executing&#xA;&quot;source /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    invoked from within&#xA;&quot;hls::main /home/saptarshi/Documents/AEP/HLS/zhangsuengps/solution1/csim.tcl&quot;&#xA;    (&quot;uplevel&quot; body line 1)&#xA;    invoked from within&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xA;    invoked from within&#xA;&quot;hls_proc $argv&quot;&#xA;" projectName="zhangsuengps" solutionName="solution1" date="2017-07-07T23:48:34.837+0200"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
