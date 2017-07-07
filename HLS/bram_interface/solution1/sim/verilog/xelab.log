@@ -1,0 +1,41 @@
+Vivado Simulator 2015.4
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.4/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_zhan_suen_top -prj zhan_suen.prj --lib ieee_proposed=./ieee_proposed -s zhan_suen 
+Multi-threading is on. Using 2 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running fuse with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_zhan_suen_top
+INFO: [VRFC 10-2458] undeclared symbol ap_clk, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:165]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:166]
+INFO: [VRFC 10-2458] undeclared symbol ap_rst_n_n, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:186]
+INFO: [VRFC 10-2458] undeclared symbol braminput_r_Rst_A, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:259]
+INFO: [VRFC 10-2458] undeclared symbol braminput_r_Rst_B, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:266]
+INFO: [VRFC 10-2458] undeclared symbol bramresult_Rst_A, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:304]
+INFO: [VRFC 10-2458] undeclared symbol bramresult_Rst_B, assumed default net type wire [/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.autotb.v:311]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/AESL_axi_slave_CRTL_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_slave_CRTL_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/AESL_autobram_result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autobram_result
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen_mul_32s_32s_32_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zhan_suen_mul_32s_32s_32_6_MulnS_0
+INFO: [VRFC 10-311] analyzing module zhan_suen_mul_32s_32s_32_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zhan_suen
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/zhan_suen_CRTL_BUS_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zhan_suen_CRTL_BUS_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/bram_interface/solution1/sim/verilog/AESL_autobram_input_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_autobram_input_r
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.zhan_suen_CRTL_BUS_s_axi(C_S_AXI...
+Compiling module xil_defaultlib.zhan_suen_mul_32s_32s_32_6_MulnS...
+Compiling module xil_defaultlib.zhan_suen_mul_32s_32s_32_6(ID=1,...
+Compiling module xil_defaultlib.zhan_suen_default
+Compiling module xil_defaultlib.AESL_autobram_input_r
+Compiling module xil_defaultlib.AESL_autobram_result
+Compiling module xil_defaultlib.AESL_axi_slave_CRTL_BUS
+Compiling module xil_defaultlib.apatb_zhan_suen_top
+Built simulation snapshot zhan_suen

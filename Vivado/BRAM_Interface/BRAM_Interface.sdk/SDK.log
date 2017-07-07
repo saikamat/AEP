@@ -1,0 +1,50 @@
+13:57:00 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:57:13 INFO  : XSDB server has started successfully.
+13:57:21 INFO  : Processing command line option -hwspec /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper.hdf.
+14:18:07 INFO  : System reset is completed.
+14:18:10 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:18:10 INFO  : ps7_init is completed.
+14:18:11 INFO  : ps7_post_config is completed.
+14:25:07 INFO  : System reset is completed.
+14:25:09 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:25:10 INFO  : ps7_init is completed.
+14:25:10 INFO  : ps7_post_config is completed.
+14:26:42 INFO  : System reset is completed.
+14:26:45 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:26:45 INFO  : ps7_init is completed.
+14:26:45 INFO  : ps7_post_config is completed.
+14:28:42 INFO  : System reset is completed.
+14:28:45 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:28:45 INFO  : ps7_init is completed.
+14:28:45 INFO  : ps7_post_config is completed.
+14:33:43 INFO  : System reset is completed.
+14:33:46 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:33:47 INFO  : ps7_init is completed.
+14:33:47 INFO  : ps7_post_config is completed.
+14:34:18 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:35:08 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:35:10 INFO  : XSDB server has started successfully.
+14:35:14 INFO  : Processing command line option -hwspec /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper.hdf.
+14:35:15 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:35:53 INFO  : System reset is completed.
+14:35:55 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:35:56 INFO  : ps7_init is completed.
+14:35:56 INFO  : ps7_post_config is completed.
+14:38:32 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:39:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:39:11 INFO  : XSDB server has started successfully.
+14:39:16 INFO  : Processing command line option -hwspec /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper.hdf.
+14:39:18 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:45:39 INFO  : System reset is completed.
+14:45:41 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:45:42 INFO  : ps7_init is completed.
+14:45:42 INFO  : ps7_post_config is completed.
+14:47:27 INFO  : System reset is completed.
+14:47:30 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:47:31 INFO  : ps7_init is completed.
+14:47:31 INFO  : ps7_post_config is completed.
+14:52:29 INFO  : System reset is completed.
+14:52:32 INFO  : FPGA configured successfully with bitstream "/home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/Vivado/BRAM_Interface/BRAM_Interface.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+14:52:32 INFO  : ps7_init is completed.
+14:52:32 INFO  : ps7_post_config is completed.
+14:53:39 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,8 @@
+verilog xil_defaultlib "zhan_suen.autotb.v"
+verilog xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+verilog xil_defaultlib "AESL_autobram_result.v"
+verilog xil_defaultlib "zhan_suen_mul_32s_32s_32_6.v"
+verilog xil_defaultlib "zhan_suen.v"
+verilog xil_defaultlib "zhan_suen_CRTL_BUS_s_axi.v"
+verilog xil_defaultlib "AESL_autobram_input_r.v"
+

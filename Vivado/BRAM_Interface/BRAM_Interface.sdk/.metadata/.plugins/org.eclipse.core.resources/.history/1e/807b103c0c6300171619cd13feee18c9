@@ -1,0 +1,11 @@
+/*
+ * Empty C++ Application
+ */
+#include <stdio.h>
+#include <xparameters.h>
+#include <xzhan_suen.h>
+
+int main()
+{
+	return 0;
+}

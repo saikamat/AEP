@@ -1,0 +1,18 @@
+/*
+ * Empty C++ Application
+ */
+#include <stdio.h>
+#include <xparameters.h>
+#include <xzhan_suen.h>
+
+
+// Pointers to BRAM
+int* inputVal = (int*)0x4000_0000;
+int* outputVal = (int*)0x4200_0000;
+
+
+
+int main()
+{
+	return 0;
+}

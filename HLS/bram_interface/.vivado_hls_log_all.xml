@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [RTGEN-101] Setting dangling out port 'zhan_suen/input_r_Din_A' to 0." projectName="bram_interface" solutionName="solution1" date="2017-07-07T13:36:03.208+0200" type="Warning"/>
+        <logs message="@W [RTGEN-101] Setting dangling out port 'zhan_suen/input_r_WEN_A' to 0." projectName="bram_interface" solutionName="solution1" date="2017-07-07T13:36:03.205+0200" type="Warning"/>
+        <logs message="@W [SYN-107] Renaming port name 'zhan_suen/input' to 'zhan_suen/input_r' to avoid the conflict with HDL keywords or other object names." projectName="bram_interface" solutionName="solution1" date="2017-07-07T13:36:03.160+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

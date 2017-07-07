@@ -1,0 +1,230 @@
+
+
+================================================================
+== Vivado HLS Report for 'zhan_suen'
+================================================================
+* Date:           Fri Jul  7 13:36:03 2017
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        bram_interface
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      6.08|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  901|  901|  902|  902|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  900|  900|         9|          -|          -|   100|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 10
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	2  / true
+* FSM state operations: 
+
+ <State 1>: 1.57ns
+ST_1: stg_11 [1/1] 0.00ns
+:0  call void (...)* @_ssdm_op_SpecBitsMap([100 x i32]* %input_r) nounwind, !map !0
+
+ST_1: stg_12 [1/1] 0.00ns
+:1  call void (...)* @_ssdm_op_SpecBitsMap([100 x i32]* %result) nounwind, !map !6
+
+ST_1: stg_13 [1/1] 0.00ns
+:2  call void (...)* @_ssdm_op_SpecBitsMap(i32 %y) nounwind, !map !10
+
+ST_1: stg_14 [1/1] 0.00ns
+:3  call void (...)* @_ssdm_op_SpecTopModule([10 x i8]* @zhan_suen_str) nounwind
+
+ST_1: y_read [1/1] 1.00ns
+:4  %y_read = call i32 @_ssdm_op_Read.s_axilite.i32(i32 %y) nounwind
+
+ST_1: stg_16 [1/1] 0.00ns
+:5  call void (...)* @_ssdm_op_SpecInterface([100 x i32]* %result, [5 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_17 [1/1] 0.00ns
+:6  call void (...)* @_ssdm_op_SpecInterface([100 x i32]* %input_r, [5 x i8]* @p_str, i32 0, i32 0, i32 0, i32 0, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_18 [1/1] 0.00ns
+:7  call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_19 [1/1] 0.00ns
+:8  call void (...)* @_ssdm_op_SpecInterface(i32 %y, [10 x i8]* @p_str2, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str3, [1 x i8]* @p_str1, [1 x i8]* @p_str1, [1 x i8]* @p_str1) nounwind
+
+ST_1: stg_20 [1/1] 1.57ns
+:9  br label %1
+
+
+ <State 2>: 2.71ns
+ST_2: i [1/1] 0.00ns
+:0  %i = phi i7 [ 0, %0 ], [ %i_1, %2 ]
+
+ST_2: exitcond [1/1] 1.97ns
+:1  %exitcond = icmp eq i7 %i, -28
+
+ST_2: empty [1/1] 0.00ns
+:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 100, i64 100, i64 100) nounwind
+
+ST_2: i_1 [1/1] 1.72ns
+:3  %i_1 = add i7 %i, 1
+
+ST_2: stg_25 [1/1] 0.00ns
+:4  br i1 %exitcond, label %3, label %2
+
+ST_2: tmp [1/1] 0.00ns
+:0  %tmp = zext i7 %i to i64
+
+ST_2: input_addr [1/1] 0.00ns
+:1  %input_addr = getelementptr [100 x i32]* %input_r, i64 0, i64 %tmp
+
+ST_2: input_load [2/2] 2.71ns
+:2  %input_load = load i32* %input_addr, align 4
+
+ST_2: stg_29 [1/1] 0.00ns
+:0  ret void
+
+
+ <State 3>: 2.71ns
+ST_3: input_load [1/2] 2.71ns
+:2  %input_load = load i32* %input_addr, align 4
+
+
+ <State 4>: 6.08ns
+ST_4: tmp_1 [6/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 5>: 6.08ns
+ST_5: tmp_1 [5/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 6>: 6.08ns
+ST_6: tmp_1 [4/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 7>: 6.08ns
+ST_7: tmp_1 [3/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 8>: 6.08ns
+ST_8: tmp_1 [2/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 9>: 6.08ns
+ST_9: tmp_1 [1/6] 6.08ns
+:3  %tmp_1 = mul nsw i32 %input_load, %y_read
+
+
+ <State 10>: 2.71ns
+ST_10: result_addr [1/1] 0.00ns
+:4  %result_addr = getelementptr [100 x i32]* %result, i64 0, i64 %tmp
+
+ST_10: stg_38 [1/1] 2.71ns
+:5  store i32 %tmp_1, i32* %result_addr, align 4
+
+ST_10: stg_39 [1/1] 0.00ns
+:6  br label %1
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

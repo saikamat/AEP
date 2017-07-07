@@ -1,0 +1,22 @@
+/*
+ * Empty C++ Application
+ */
+#include <stdio.h>
+#include <xparameters.h>
+#include <xzhan_suen.h>
+
+
+// Pointers to BRAM
+int* inputVal = (int*)0x40000000;
+int* outputVal = (int*)0x42000000;
+
+XZhan_suen zhansuen;
+XZhan_suen_Config* zhansuen_cfg;
+
+XDogain doGain;
+XDogain_Config *doGain_cfg;
+
+int main()
+{
+	return 0;
+}

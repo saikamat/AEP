@@ -1,0 +1,171 @@
+
+
+================================================================
+== Vivado HLS Report for 'zhan_suen'
+================================================================
+* Date:           Fri Jul  7 13:36:03 2017
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        bram_interface
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      6.08|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |  901|  901|  902|  902|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |  900|  900|         9|          -|          -|   100|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     10|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        0|      4|      74|    104|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|     15|
+|Register         |        -|      -|     127|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      4|     201|    129|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      1|   ~0   |   ~0  |
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------------+----------------------------+---------+-------+----+-----+
+    |            Instance           |           Module           | BRAM_18K| DSP48E| FF | LUT |
+    +-------------------------------+----------------------------+---------+-------+----+-----+
+    |zhan_suen_CRTL_BUS_s_axi_U     |zhan_suen_CRTL_BUS_s_axi    |        0|      0|  74|  104|
+    |zhan_suen_mul_32s_32s_32_6_U1  |zhan_suen_mul_32s_32s_32_6  |        0|      4|   0|    0|
+    +-------------------------------+----------------------------+---------+-------+----+-----+
+    |Total                          |                            |        0|      4|  74|  104|
+    +-------------------------------+----------------------------+---------+-------+----+-----+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-------------------+----------+-------+---+----+------------+------------+
+    |   Variable Name   | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-------------------+----------+-------+---+----+------------+------------+
+    |i_1_fu_85_p2       |     +    |      0|  0|   7|           7|           1|
+    |exitcond_fu_79_p2  |   icmp   |      0|  0|   3|           7|           6|
+    +-------------------+----------+-------+---+----+------------+------------+
+    |Total              |          |      0|  0|  10|          14|           7|
+    +-------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +--------------+----+-----------+-----+-----------+
+    |     Name     | LUT| Input Size| Bits| Total Bits|
+    +--------------+----+-----------+-----+-----------+
+    |ap_NS_fsm     |   4|         11|    1|         11|
+    |i_reg_68      |   7|          2|    7|         14|
+    |result_WEN_A  |   4|          2|    4|          8|
+    +--------------+----+-----------+-----+-----------+
+    |Total         |  15|         15|   12|         33|
+    +--------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------+----+----+-----+-----------+
+    |        Name        | FF | LUT| Bits| Const Bits|
+    +--------------------+----+----+-----+-----------+
+    |ap_CS_fsm           |  10|   0|   10|          0|
+    |i_1_reg_108         |   7|   0|    7|          0|
+    |i_reg_68            |   7|   0|    7|          0|
+    |input_load_reg_123  |  32|   0|   32|          0|
+    |tmp_1_reg_128       |  32|   0|   32|          0|
+    |tmp_reg_113         |   7|   0|   64|         57|
+    |y_read_reg_100      |  32|   0|   32|          0|
+    +--------------------+----+----+-----+-----------+
+    |Total               | 127|   0|  184|         57|
+    +--------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+--------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  | Source Object|    C Type    |
++------------------------+-----+-----+------------+--------------+--------------+
+|s_axi_CRTL_BUS_AWVALID  |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_AWREADY  | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_AWADDR   |  in |    5|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WVALID   |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WREADY   | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WDATA    |  in |   32|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_WSTRB    |  in |    4|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARVALID  |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARREADY  | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_ARADDR   |  in |    5|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RVALID   | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RREADY   |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RDATA    | out |   32|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_RRESP    | out |    2|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BVALID   | out |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BREADY   |  in |    1|    s_axi   |   CRTL_BUS   |    scalar    |
+|s_axi_CRTL_BUS_BRESP    | out |    2|    s_axi   |   CRTL_BUS   |    scalar    |
+|ap_clk                  |  in |    1| ap_ctrl_hs |   zhan_suen  | return value |
+|ap_rst_n                |  in |    1| ap_ctrl_hs |   zhan_suen  | return value |
+|interrupt               | out |    1| ap_ctrl_hs |   zhan_suen  | return value |
+|input_r_Addr_A          | out |   32|    bram    |    input_r   |     array    |
+|input_r_EN_A            | out |    1|    bram    |    input_r   |     array    |
+|input_r_WEN_A           | out |    4|    bram    |    input_r   |     array    |
+|input_r_Din_A           | out |   32|    bram    |    input_r   |     array    |
+|input_r_Dout_A          |  in |   32|    bram    |    input_r   |     array    |
+|input_r_Clk_A           | out |    1|    bram    |    input_r   |     array    |
+|input_r_Rst_A           | out |    1|    bram    |    input_r   |     array    |
+|result_Addr_A           | out |   32|    bram    |    result    |     array    |
+|result_EN_A             | out |    1|    bram    |    result    |     array    |
+|result_WEN_A            | out |    4|    bram    |    result    |     array    |
+|result_Din_A            | out |   32|    bram    |    result    |     array    |
+|result_Dout_A           |  in |   32|    bram    |    result    |     array    |
+|result_Clk_A            | out |    1|    bram    |    result    |     array    |
+|result_Rst_A            | out |    1|    bram    |    result    |     array    |
++------------------------+-----+-----+------------+--------------+--------------+
+

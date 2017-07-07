@@ -1,0 +1,7 @@
+Running: xsim.dir/zhan_suen/xsimk -maxdeltaid 10000 -simmode gui -wdb zhan_suen.wdb -simrunnum 0 -socket 60647
+Design successfully loaded
+Design Loading Memory Usage: 110840 KB (Peak: 110992 KB)
+Design Loading CPU Usage: 70 ms
+Simulation completed
+Simulation Memory Usage: 188672 KB (Peak: 250108 KB)
+Simulation CPU Usage: 100 ms
