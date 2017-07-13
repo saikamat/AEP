@@ -1,0 +1,240 @@
+17:14:35 **** Auto Build of configuration Debug for project LWIP_WebServer04 ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+Finished building: ../src/dispatch.c
+ 
+Building file: ../src/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building file: ../src/platform_gpio.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_gpio.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_gpio.d" -MT"src/platform_gpio.d" -o "src/platform_gpio.o" "../src/platform_gpio.c"
+Finished building: ../src/platform_gpio.c
+ 
+Building file: ../src/prot_malloc.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.d" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+Finished building: ../src/prot_malloc.c
+ 
+Building file: ../src/rxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rxperf.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rxperf.d" -MT"src/rxperf.d" -o "src/rxperf.o" "../src/rxperf.c"
+Finished building: ../src/rxperf.c
+ 
+Building file: ../src/tftpserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.d" -o "src/tftpserver.o" "../src/tftpserver.c"
+Finished building: ../src/tftpserver.c
+ 
+Building file: ../src/tftputils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.d" -o "src/tftputils.o" "../src/tftputils.c"
+Finished building: ../src/tftputils.c
+ 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building file: ../src/urxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/urxperf.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/urxperf.d" -MT"src/urxperf.d" -o "src/urxperf.o" "../src/urxperf.c"
+Finished building: ../src/urxperf.c
+ 
+Building file: ../src/utxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/utxperf.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/utxperf.d" -MT"src/utxperf.d" -o "src/utxperf.o" "../src/utxperf.c"
+Finished building: ../src/utxperf.c
+ 
+Building file: ../src/web_utils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/web_utils.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/web_utils.d" -MT"src/web_utils.d" -o "src/web_utils.o" "../src/web_utils.c"
+Finished building: ../src/web_utils.c
+ 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer04_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building target: LWIP_WebServer04.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer04_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer04.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/echo.o: In function `echo_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:48: undefined reference to `tcp_close'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:49: undefined reference to `tcp_recv'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:54: undefined reference to `tcp_recved'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:59: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:63: undefined reference to `pbuf_free'
+./src/echo.o: In function `echo_accept_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:74: undefined reference to `tcp_recv'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:78: undefined reference to `tcp_arg'
+./src/echo.o: In function `start_echo_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:93: undefined reference to `tcp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:100: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:100: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:100: undefined reference to `tcp_bind'
+makefile:36: recipe for target 'LWIP_WebServer04.elf' failed
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:107: undefined reference to `tcp_arg'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:110: undefined reference to `tcp_listen_with_backlog'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/echo.c:117: undefined reference to `tcp_accept'
+./src/http_response.o: In function `do_404':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:69: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:73: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:74: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:75: undefined reference to `tcp_write'
+./src/http_response.o: In function `do_http_post':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:112: undefined reference to `tcp_write'
+./src/http_response.o:/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:176: more undefined references to `tcp_write' follow
+./src/http_response.o: In function `do_http_get':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:182: undefined reference to `tcp_output'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:201: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/http_response.c:207: undefined reference to `tcp_output'
+./src/main.o: In function `main':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:83: undefined reference to `lwip_init'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:92: undefined reference to `xemac_add'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:96: undefined reference to `netif_set_default'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:99: undefined reference to `netif_set_up'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:142: undefined reference to `tcp_fasttmr'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:146: undefined reference to `tcp_slowtmr'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/main.c:149: undefined reference to `xemacif_input'
+./src/prot_malloc.o: In function `prot_mem_malloc':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:26: undefined reference to `sys_arch_protect'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:27: undefined reference to `mem_malloc'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:28: undefined reference to `sys_arch_unprotect'
+./src/prot_malloc.o: In function `prot_mem_free':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:36: undefined reference to `sys_arch_protect'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:37: undefined reference to `mem_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/prot_malloc.c:38: undefined reference to `sys_arch_unprotect'
+./src/rxperf.o: In function `rxperf_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:41: undefined reference to `tcp_close'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:47: undefined reference to `tcp_recved'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:49: undefined reference to `pbuf_free'
+./src/rxperf.o: In function `rxperf_accept_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:57: undefined reference to `tcp_recv'
+./src/rxperf.o: In function `start_rxperf_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:69: undefined reference to `tcp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:76: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:76: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:76: undefined reference to `tcp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:83: undefined reference to `tcp_arg'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:86: undefined reference to `tcp_listen_with_backlog'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/rxperf.c:93: undefined reference to `tcp_accept'
+./src/tftpserver.o: In function `tftp_send_message':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:69: undefined reference to `pbuf_alloc'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:77: undefined reference to `udp_sendto'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:80: undefined reference to `pbuf_free'
+./src/tftpserver.o: In function `tftp_cleanup':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:144: undefined reference to `udp_remove'
+./src/tftpserver.o: In function `rrq_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:180: undefined reference to `pbuf_free'
+./src/tftpserver.o: In function `tftp_process_read':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:201: undefined reference to `udp_remove'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:210: undefined reference to `mem_malloc'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:214: undefined reference to `udp_remove'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:224: undefined reference to `udp_recv'
+./src/tftpserver.o: In function `wrq_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:246: undefined reference to `pbuf_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:258: undefined reference to `pbuf_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:272: undefined reference to `pbuf_free'
+./src/tftpserver.o: In function `tftp_process_write':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:286: undefined reference to `udp_remove'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:294: undefined reference to `udp_remove'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:301: undefined reference to `mem_malloc'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:305: undefined reference to `udp_remove'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:316: undefined reference to `udp_recv'
+./src/tftpserver.o: In function `process_tftp_request':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:337: undefined reference to `udp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:344: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:344: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:344: undefined reference to `udp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:365: undefined reference to `udp_remove'
+./src/tftpserver.o: In function `tftp_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:382: undefined reference to `pbuf_free'
+./src/tftpserver.o: In function `start_tftp_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:393: undefined reference to `udp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:400: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:400: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:400: undefined reference to `udp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/tftpserver.c:406: undefined reference to `udp_recv'
+./src/txperf.o: In function `transfer_txperf_data':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:54: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:60: undefined reference to `tcp_output'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:67: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:72: undefined reference to `tcp_output'
+./src/txperf.o: In function `txperf_sent_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:94: undefined reference to `tcp_write'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:100: undefined reference to `tcp_output'
+./src/txperf.o: In function `txperf_connected_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:119: undefined reference to `tcp_arg'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:120: undefined reference to `tcp_sent'
+./src/txperf.o: In function `start_txperf_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:136: undefined reference to `tcp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/txperf.c:146: undefined reference to `tcp_connect'
+./src/urxperf.o: In function `urxperf_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:56: undefined reference to `pbuf_free'
+./src/urxperf.o: In function `start_urxperf_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:69: undefined reference to `udp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:76: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:76: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:76: undefined reference to `udp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/urxperf.c:82: undefined reference to `udp_recv'
+./src/utxperf.o: In function `transfer_utxperf_data':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:45: undefined reference to `pbuf_alloc'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:61: undefined reference to `udp_send'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:64: undefined reference to `pbuf_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:67: undefined reference to `pbuf_free'
+./src/utxperf.o: In function `start_utxperf_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:81: undefined reference to `udp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:88: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:88: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:88: undefined reference to `udp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/utxperf.c:95: undefined reference to `udp_connect'
+./src/webserver.o: In function `http_sent_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:76: undefined reference to `tcp_close'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:91: undefined reference to `tcp_write'
+./src/webserver.o: In function `http_recv_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:113: undefined reference to `pbuf_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:116: undefined reference to `pbuf_free'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:121: undefined reference to `tcp_recved'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:132: undefined reference to `pbuf_free'
+./src/webserver.o: In function `http_accept_callback':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:141: undefined reference to `tcp_arg'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:143: undefined reference to `tcp_recv'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:144: undefined reference to `tcp_sent'
+./src/webserver.o: In function `start_web_application':
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:162: undefined reference to `tcp_new'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:169: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:169: undefined reference to `ip_addr_any'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:169: undefined reference to `tcp_bind'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:176: undefined reference to `tcp_arg'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:179: undefined reference to `tcp_listen_with_backlog'
+/home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/LWIP_WebServer04/Debug/../src/webserver.c:186: undefined reference to `tcp_accept'
+collect2: error: ld returned 1 exit status
+make: *** [LWIP_WebServer04.elf] Error 1
+
+17:14:36 Build Finished (took 1s.168ms)
+

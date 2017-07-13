@@ -1,0 +1,21 @@
+08:05:10 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   8844	2152752	2318776	 2361b8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+
+08:05:10 Build Finished (took 308ms)
+

@@ -1,0 +1,14 @@
+15:04:00 **** Auto Build of configuration Debug for project LWIP_WebServer ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+../src/http_response.c:21:24: fatal error: mfs_config.h: No such file or directory
+ #include "mfs_config.h"
+                        ^
+compilation terminated.
+src/subdir.mk:66: recipe for target 'src/http_response.o' failed
+make: *** [src/http_response.o] Error 1
+
+15:04:02 Build Finished (took 1s.117ms)
+

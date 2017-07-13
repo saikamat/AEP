@@ -1,0 +1,147 @@
+1. omit the index.html section
+2. xemacif_input() check case
+
+TODO:	
+	troubleshoot the runtime synthesis errors
+	testing the setup: add modules for images input & output	
+
+		apache server2 = open source server... try kurude's video link 
+	testing with single image - 6hrs 
+		taking image from different sources: DMA, Buffers
+	h/w interfacing processor, MAC, Timer & DMA.
+		MAC = 10Gigabit Ethernet MAC
+		TIMER = already integrated.
+		DMA = not reqd. integrated with MAC.	
+
+code study - 1hr
+code tester app - 2hrs
+
+
+Doubts:-
+	JUMBO & VLAN frame
+		both are ethernet frames. jumbo frames are larger with payloads of 9 KB.
+	Which timer to use?
+		 Set up a timer to interrupt at a constant interval. Usually, the interval is around 250 ms. In the timer interrupt, update necessary flags to invoke the lwIP TCP APIs tcp_fasttmr and tcp_slowtmr from the main application loop explained previous. Ref: xapp1026.pdf. TBD.
+		TOE (TCP Offloading Engine) = 3rd party IP core... useless.
+
+Jul 07
+1. timer setup is reqd.
+2. needs ip address, which can be given statically or via a dhcp.
+3. needs a network inteface (netif)
+	zync GEM, or axi ethernet, or ethernet lite
+4. xemacif_input() responsible for placing data from the physical or data link layer into the LWIP stack
+5. for a tcp network flow, it's the server's job to create a socket, bind this socket to a specific IP address, and listen to incoming packets from the client.
+6. the LWIP is centered around callbacks. the application (in the application layer), registers callback functions to inform about events. e.g new connection estd., data received, etc.
+7. TODO: check for port nos
+8. TODO: check if port no change works, else 
+
+Jul 08
+Tried to change jtag settings to no avail.
+finding inputs for the LWIP. it's clear xemacif_input() takes ethernet packets as input, and not axi stream as o/p. to check this, use the fpga_developer jeff johnson's github code.
+	1. used kurude's PC for windows based running - to run jeff's bat file.
+	2. with jeff's code, ran the project through tcl command line, but received top module not created error. this is because, the bat file isn't auto-creating the hdl wrapper file.
+			troubleshoot the top module not created.
+				no info in the the readme's on this.
+				essentially, kurude's pc will never run the project, even if top level wrapper module is made because synthesis will fail due to licensing error.
+				hence this is a dead-end.
+	3. so created own zync ps ip blocs, validated and generated bit stream. however synthesis fails du2 invalid license for "synthesis and /or deice xc7z020"
+			check if simple codes can be synthesized.
+				synthesis fails for even the usual simple code. checked with "project_1" in the "Emb_folder" on Kurude's desktop.
+the netif (net interface) need not be changed to GigE controller. Zync 7000 Processor System (PS) supports both AXI Ethernet interface & GEM interfaces.
+(ref:"https://github.com/fpgadeveloper/ethernet-fmc-zynq-gem")
+
+Jul 09
+1. sample online programs as reference: Tried workaround of running the s/w on linux by directly running the "./source build-zedboard.tcl" on the vivado. again, top module wasn't created. created own IP block, validated, implemented, synthesized, generated bitstream. but the "source build-sdk.tcl" could not be run coz:-
+	* it needs bat file to run
+	* can't be run from the vivado. xilinx sdk does not have tcl console.
+2. std. documents: rawapi.txt doesn't give much info regarding the usage either.
+3. moving out, checking non-vivado applications
+
+
+Jul 10
+(Ref: http://www.st.com/content/ccc/resource/technical/document/application_note/fd/5d/64/cf/7c/38/4c/30/DM00036052.pdf/files/DM00036052.pdf/jcr:content/translations/en.DM00036052.pdf)
+mode of operation:
+	* the stack receives ethernet packets via the GigE or Axi Ethernet interface.
+	* these packets are copied from the ethernet driver buffers (DMA?) into LWIP buffers.
+	* to copy the packet from packet, the LWIP buffer should be first allocated from pool of buffers.
+	* this is optional, however, depending upon the received packet, the stack may or may not notify the upper application layer. the comm. is using callback() functions.
+
+webserver won't work, coz the board acts as server, and pc is client, and makes board do things. the app given, makes the board the server, and PC as the client. this isn't suitable to our work. thank god i didn't work on fixing this code unnecessarily.
+
+also wireless transmission requires external wifi adapters. so this is outta scope.
+
+in fact, it'll work. the board is server. the pc will wanna connect to it, and be the one to initiate the transfer. the the server will send the PC images. so webserver is the way to go.
+
+MORAL: before coming to a conclusion, do think of the statement from multiple directions. it was easy to dismiss the webserver app as the one that suits my purpose, but that was because I first saw that board's only a client. but now i think, board can also be server, and send only when a desktop PC connects to it and requests images or whatever.
+
+todo:-
+	the webserver app that takes axi or gigE stream of packet data.
+	how to coalesce the bit stream into image.
+		this is why i looked into LWIP buffers.
+	
+
+
+Application
+-----------
+LWIP
+-----------
+AXI Etherner or GigE interface
+-----------
+^^(data packets here)^^
+||-------------------||
+DDR via DMA
+
+
+Jul 12
+
+TCP Offload Engine: 
+	Moving some or all of these functions 
+		connection estd., 
+		ack. of packes
+		checksum
+		conn. termination
+	to dedicated hardware, a TCP offload engine, frees the system's main CPU for other tasks. As of 2012, very few consumer network interface cards support TOE.
+
+socket programming will not work, coz it uses tcp/udp protocol (L4 transport layer protocol). for this the API used are a lighter version of the Berkeley sockets API's. and for running these API's, a FreeRTOS is required.
+ref: 
+https://en.wikipedia.org/wiki/Computer_network_programming
+https://www.xilinx.com/video/soc/networking-with-lwip-focused-free-rtos.html
+
+check:-
+	xilinx tcp client codes - DONE
+	tcp client apache with zedboard - DONE
+		use the txperf
+	
+	test the app to check basic connection
+		fix the file system issue.
+
+	apache2 web server on pc
+			anything that comes on port 80 comes here.
+		modify the index.html to display the bitstream
+			Link to add a custom site to be hosted on apache server:-
+				https://www.youtube.com/watch?v=oi9r3gJoUR0
+			Printing array elements:-
+				https://www.youtube.com/watch?v=RHMXHRmbONk
+			
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
