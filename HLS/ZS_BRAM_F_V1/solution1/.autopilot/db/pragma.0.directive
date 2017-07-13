@@ -1,0 +1,35 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="zs_func" label="">
+<pragma name="INTERFACE">
+<option name="bram" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="ImgIn"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="zs_func" label="">
+<pragma name="INTERFACE">
+<option name="bram" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="ImgOut"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="zs_func" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+<option name="bundle" value="CRTL_BUS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="zs_func" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="ImgIn"/>
+<option name="core" value="RAM_1P_BRAM"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="zs_func" label="">
+<pragma name="RESOURCE">
+<option name="variable" positionalBoolean="4" value="ImgOut"/>
+<option name="core" value="RAM_1P_BRAM"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>

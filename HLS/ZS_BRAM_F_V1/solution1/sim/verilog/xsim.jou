@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jul 13 01:56:09 2017
+# Process ID: 11751
+# Current directory: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/zs_func/xsim_script.tcl}
+# Log file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/xsim.log
+# Journal file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/zs_func/xsim_script.tcl
+source zs_func.tcl

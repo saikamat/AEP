@@ -1,0 +1,7 @@
+verilog xil_defaultlib "AESL_autobram_ImgIn.v"
+verilog xil_defaultlib "AESL_axi_slave_CRTL_BUS.v"
+verilog xil_defaultlib "zs_func_CRTL_BUS_s_axi.v"
+verilog xil_defaultlib "zs_func.v"
+verilog xil_defaultlib "AESL_autobram_ImgOut.v"
+verilog xil_defaultlib "zs_func.autotb.v"
+

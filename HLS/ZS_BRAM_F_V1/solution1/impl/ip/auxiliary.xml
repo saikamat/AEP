@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="zs_func" xd:componentRef="zs_func" xd:initiationInterval="26919" xd:clockPeriod="10.000000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:returnValue xd:interfaceRef="s_axi_CRTL_BUS" xd:busTypeRef="axilite" xd:offset="0x10" xd:statusOffset="0x14" xd:dataWidth="32"/>
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_CRTL_BUS" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="ImgIn[]" xd:originalName="ImgIn" xd:direction="inout" xd:interfaceRef="ImgIn_PORTA" xd:busTypeRef="bram" xd:arraySize="2100" xd:dataWidth="32"/>
+  <xd:arg xd:name="ImgOut[]" xd:originalName="ImgOut" xd:direction="inout" xd:interfaceRef="ImgOut_PORTA" xd:busTypeRef="bram" xd:arraySize="2100" xd:dataWidth="32"/>
+  <xd:latencyEstimates xd:best-case="26918" xd:worst-case="26918" xd:average-case="26918"/>
+  <xd:resourceEstimates xd:LUT="663" xd:FF="301" xd:BRAM="0" xd:DSP="1"/>
+</xd:acceleratorMap>

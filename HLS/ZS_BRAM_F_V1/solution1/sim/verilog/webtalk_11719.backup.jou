@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Thu Jul 13 01:56:08 2017
+# Process ID: 11719
+# Current directory: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog
+# Command line: wbtcv -mode batch -source /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/xsim.dir/zs_func/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/webtalk.log
+# Journal file: /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/webtalk.jou
+#-----------------------------------------------------------
+source /home/ubuntu-admin/SharedFolder/EIT_Studies/TUB_Docs/Sem2/EmbProj/GitHub/AEP/HLS/ZS_BRAM_F_V1/solution1/sim/verilog/xsim.dir/zs_func/webtalk/xsim_webtalk.tcl -notrace
