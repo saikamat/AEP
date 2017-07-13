@@ -2,11 +2,9 @@
 #define ROWS 42
 #define COLS 50
 
-
-int zs_func(int ImgIn[ROWS*COLS],int ImgOut[ROWS*COLS]) {
+int zs_func(int ImgIn[ROWS*COLS]) {
 
 #pragma HLS INTERFACE bram port=ImgIn
-#pragma HLS INTERFACE bram port=ImgOut
 #pragma HLS INTERFACE s_axilite port=return bundle=CRTL_BUS
 
 
@@ -21,7 +19,6 @@ int zs_func(int ImgIn[ROWS*COLS],int ImgOut[ROWS*COLS]) {
 	{
 		for(int j=0;j<COLS;j++)
 		{
-
 			unsigned char  m1;
 			unsigned char  m2;
 			unsigned char x,y;
@@ -51,16 +48,17 @@ int zs_func(int ImgIn[ROWS*COLS],int ImgOut[ROWS*COLS]) {
 
 			if (outVal && ImgIn[i*COLS+j] == 255){
 				count++;
-				ImgOut[i*COLS+j] = 0;
+				ImgIn[i*COLS+j] = 100;
 			}
+
 		}
 	}
 
-	for (int k=0;k<ROWS;k++)
+	for (int k = 0 ; k < ROWS ; k++ )
 	{
-		for(int l=0;l<COLS;l++)
+		for(int l = 0 ; l < COLS ; l++ )
 		{
-			ImgIn[k*COLS+l]=ImgOut[k*COLS+l];
+			ImgIn[k*COLS+l]=(ImgIn[k*COLS+l]<128)?0:255;
 		}
 	}
 
