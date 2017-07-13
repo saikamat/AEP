@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# 
+# Start of session at: Wed Jul  5 17:49:38 2017
+# Process ID: 9467
+# Current directory: /home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/webtalk/webtalk.log
+# Journal file: /home/sattu-supari/Documents/Sem2/AESP/project/LWIP_Trials04/LWIP_Trials04.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
