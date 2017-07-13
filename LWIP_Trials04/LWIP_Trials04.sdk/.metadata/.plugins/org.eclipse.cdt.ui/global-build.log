@@ -1,0 +1,932 @@
+15:18:05 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+15:18:12 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+15:18:29 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+17:28:09 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+04:26:07 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+04:26:24 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+04:28:31 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+04:28:38 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+04:29:04 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+12:23:35 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:11: error: variably modified 'datat' at file scope
+    u8_t   datat[MAX_BUFF_SIZE];
+           ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool   readyRead;
+    ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:24:29 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:11: error: variably modified 'datat' at file scope
+    u8_t   datat[MAX_BUFF_SIZE];
+           ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool   readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:115:12: warning: unused variable 'info' [-Wunused-variable]
+  DataInfo *info = (DataInfo *)arg;
+            ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:25:29 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:11: error: variably modified 'datat' at file scope
+    u8_t   datat[MAX_BUFF_SIZE];
+           ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool   readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:126:21: error: 'false' undeclared (first use in this function)
+   info->readyRead = false;
+                     ^
+../src/webserver.c:126:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/webserver.c:132:15: error: 'DataInfo' has no member named 'data'
+   memcpy(&info->data[info->bytesRxd], p->payload, p->len);
+               ^
+../src/webserver.c:138:22: error: 'true' undeclared (first use in this function)
+    info->readyRead = true; // Ready to process data.
+                      ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:25:58 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:12: error: variably modified 'data' at file scope
+    short   data[MAX_BUFF_SIZE];
+            ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:126:21: error: 'false' undeclared (first use in this function)
+   info->readyRead = false;
+                     ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+../src/webserver.c:126:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/webserver.c:138:22: error: 'true' undeclared (first use in this function)
+    info->readyRead = true; // Ready to process data.
+                      ^
+make: *** [src/webserver.o] Error 1
+12:26:03 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:12: error: variably modified 'data' at file scope
+    short   data[MAX_BUFF_SIZE];
+            ^
+../src/webserver.c:61:4: error: unknown type name 'boolean'
+    boolean readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:126:21: error: 'false' undeclared (first use in this function)
+   info->readyRead = false;
+                     ^
+../src/webserver.c:126:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/webserver.c:138:22: error: 'true' undeclared (first use in this function)
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+    info->readyRead = true; // Ready to process data.
+                      ^
+make: *** [src/webserver.o] Error 1
+12:26:09 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:12: error: variably modified 'data' at file scope
+    short   data[MAX_BUFF_SIZE];
+            ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:126:21: error: 'false' undeclared (first use in this function)
+   info->readyRead = false;
+                     ^
+../src/webserver.c:126:21: note: each undeclared identifier is reported only once for each function it appears in
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+../src/webserver.c:138:22: error: 'true' undeclared (first use in this function)
+    info->readyRead = true; // Ready to process data.
+                      ^
+make: *** [src/webserver.o] Error 1
+12:28:09 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:14: error: variably modified 'data' at file scope
+    short int data[MAX_BUFF_SIZE];
+              ^
+../src/webserver.c:61:4: error: unknown type name 'bool'
+    bool readyRead;
+    ^
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:126:21: error: 'false' undeclared (first use in this function)
+   info->readyRead = false;
+                     ^
+../src/webserver.c:126:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/webserver.c:138:22: error: 'true' undeclared (first use in this function)
+    info->readyRead = true; // Ready to process data.
+                      ^
+make: *** [src/webserver.o] Error 1
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+12:29:41 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:14: error: variably modified 'data' at file scope
+    short int data[MAX_BUFF_SIZE];
+              ^
+make: *** [src/webserver.o] Error 1
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+12:29:50 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:10: error: variably modified 'data' at file scope
+    short data[MAX_BUFF_SIZE];
+          ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:34:49 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:17: error: variably modified 'data' at file scope
+    unsigned int data[MAX_BUFF_SIZE];
+                 ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:41:16 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:17: error: variably modified 'data' at file scope
+    unsigned int data[MAX_BUFF_SIZE];
+                 ^
+make: *** [src/webserver.o] Error 1
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+12:43:20 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c: In function 'http_recv_callback':
+../src/webserver.c:132:15: error: 'DataInfo' has no member named 'data'
+   memcpy(&info->data[info->bytesRxd], p->payload, p->len);
+               ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:43:47 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:9: error: variably modified 'data' at file scope
+   short data[MAX_BUFF_SIZE];
+         ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:45:52 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+../src/webserver.c:58:8: error: variably modified 'data' at file scope
+    int data[MAX_BUFF_SIZE];
+        ^
+src/subdir.mk:66: recipe for target 'src/webserver.o' failed
+make: *** [src/webserver.o] Error 1
+12:47:29 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+14:55:00 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+14:55:26 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+14:55:54 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+14:59:34 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:15 **** Clean-only build of configuration Debug for project LWIP_WebServer041 ****
+make clean 
+rm -rf  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./src/dispatch.d ./src/echo.d ./src/http_response.d ./src/main.d ./src/platform.d ./src/platform_fs.d ./src/platform_gpio.d ./src/prot_malloc.d ./src/rxperf.d ./src/tftpserver.d ./src/tftputils.d ./src/txperf.d ./src/urxperf.d ./src/utxperf.d ./src/web_utils.d ./src/webserver.d  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.d  LWIP_WebServer041.elf.size  LWIP_WebServer041.elf
+ 
+15:12:15 **** Clean-only build of project LWIP_WebServer041_bsp ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+15:12:15 **** Build of project LWIP_WebServer041_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_3/src
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xilmfs_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_3/src
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling lwip src and adapter files
+Running Make libs in ps7_cortexa9_0/libsrc/xilmfs_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Finished building libraries
+15:12:25 **** Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+Finished building: ../src/dispatch.c
+ 
+Building file: ../src/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building file: ../src/platform_gpio.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_gpio.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_gpio.d" -MT"src/platform_gpio.d" -o "src/platform_gpio.o" "../src/platform_gpio.c"
+Finished building: ../src/platform_gpio.c
+ 
+Building file: ../src/prot_malloc.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.d" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+Finished building: ../src/prot_malloc.c
+ 
+Building file: ../src/rxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rxperf.d" -MT"src/rxperf.d" -o "src/rxperf.o" "../src/rxperf.c"
+Finished building: ../src/rxperf.c
+ 
+Building file: ../src/tftpserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.d" -o "src/tftpserver.o" "../src/tftpserver.c"
+Finished building: ../src/tftpserver.c
+ 
+Building file: ../src/tftputils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.d" -o "src/tftputils.o" "../src/tftputils.c"
+Finished building: ../src/tftputils.c
+ 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building file: ../src/urxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/urxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/urxperf.d" -MT"src/urxperf.d" -o "src/urxperf.o" "../src/urxperf.c"
+Finished building: ../src/urxperf.c
+ 
+Building file: ../src/utxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/utxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/utxperf.d" -MT"src/utxperf.d" -o "src/utxperf.o" "../src/utxperf.c"
+Finished building: ../src/utxperf.c
+ 
+Building file: ../src/web_utils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/web_utils.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/web_utils.d" -MT"src/web_utils.d" -o "src/web_utils.o" "../src/web_utils.c"
+Finished building: ../src/web_utils.c
+ 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157540	   3244	2152752	2313536	 234d40	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+15:14:08 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+15:36:02 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157476	   3244	2152752	2313472	 234d00	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+15:36:26 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157476	   3244	2152752	2313472	 234d00	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+15:36:34 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+15:38:25 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   3244	2152752	2313176	 234bd8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+15:38:28 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+15:47:35 **** Incremental Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+make: Nothing to be done for 'all'.
+17:03:33 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   3244	2152752	2313176	 234bd8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+05:05:30 **** Build of project LWIP_WebServer041_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/lwip141_v1_3/src
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/xilmfs_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_3/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_0/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v5_3/src
+make -C ps7_cortexa9_0/libsrc/standalone_v5_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_1/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v1_3/src
+make -C ps7_cortexa9_0/libsrc/lwip141_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling lwip src and adapter files
+Running Make libs in ps7_cortexa9_0/libsrc/xilmfs_v2_0/src
+make -C ps7_cortexa9_0/libsrc/xilmfs_v2_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_1/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_2/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+Compiling qspips
+Finished building libraries
+05:05:42 **** Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/dispatch.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dispatch.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dispatch.d" -MT"src/dispatch.d" -o "src/dispatch.o" "../src/dispatch.c"
+Finished building: ../src/dispatch.c
+ 
+Building file: ../src/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+Finished building: ../src/echo.c
+ 
+Building file: ../src/http_response.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/http_response.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/http_response.d" -MT"src/http_response.d" -o "src/http_response.o" "../src/http_response.c"
+Finished building: ../src/http_response.c
+ 
+Building file: ../src/main.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/platform_fs.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_fs.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_fs.d" -MT"src/platform_fs.d" -o "src/platform_fs.o" "../src/platform_fs.c"
+Finished building: ../src/platform_fs.c
+ 
+Building file: ../src/platform_gpio.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_gpio.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform_gpio.d" -MT"src/platform_gpio.d" -o "src/platform_gpio.o" "../src/platform_gpio.c"
+Finished building: ../src/platform_gpio.c
+ 
+Building file: ../src/prot_malloc.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.d" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+Finished building: ../src/prot_malloc.c
+ 
+Building file: ../src/rxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/rxperf.d" -MT"src/rxperf.d" -o "src/rxperf.o" "../src/rxperf.c"
+Finished building: ../src/rxperf.c
+ 
+Building file: ../src/tftpserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.d" -o "src/tftpserver.o" "../src/tftpserver.c"
+Finished building: ../src/tftpserver.c
+ 
+Building file: ../src/tftputils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.d" -o "src/tftputils.o" "../src/tftputils.c"
+Finished building: ../src/tftputils.c
+ 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building file: ../src/urxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/urxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/urxperf.d" -MT"src/urxperf.d" -o "src/urxperf.o" "../src/urxperf.c"
+Finished building: ../src/urxperf.c
+ 
+Building file: ../src/utxperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/utxperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/utxperf.d" -MT"src/utxperf.d" -o "src/utxperf.o" "../src/utxperf.c"
+Finished building: ../src/utxperf.c
+ 
+Building file: ../src/web_utils.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/web_utils.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/web_utils.d" -MT"src/web_utils.d" -o "src/web_utils.o" "../src/web_utils.c"
+Finished building: ../src/web_utils.c
+ 
+Building file: ../src/webserver.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/webserver.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/webserver.d" -MT"src/webserver.d" -o "src/webserver.o" "../src/webserver.c"
+Finished building: ../src/webserver.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   3244	2152752	2313176	 234bd8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+06:19:41 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   3244	2152752	2313176	 234bd8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+08:04:08 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   3244	2152752	2313176	 234bd8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 
+08:05:10 **** Auto Build of configuration Debug for project LWIP_WebServer041 ****
+make all 
+Building file: ../src/txperf.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/txperf.o" -I../../LWIP_WebServer041_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/txperf.d" -MT"src/txperf.d" -o "src/txperf.o" "../src/txperf.c"
+Finished building: ../src/txperf.c
+ 
+Building target: LWIP_WebServer041.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../LWIP_WebServer041_bsp/ps7_cortexa9_0/lib -o "LWIP_WebServer041.elf"  ./src/dispatch.o ./src/echo.o ./src/http_response.o ./src/main.o ./src/platform.o ./src/platform_fs.o ./src/platform_gpio.o ./src/prot_malloc.o ./src/rxperf.o ./src/tftpserver.o ./src/tftputils.o ./src/txperf.o ./src/urxperf.o ./src/utxperf.o ./src/web_utils.o ./src/webserver.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: LWIP_WebServer041.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size LWIP_WebServer041.elf  |tee "LWIP_WebServer041.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 157180	   8844	2152752	2318776	 2361b8	LWIP_WebServer041.elf
+Finished building: LWIP_WebServer041.elf.size
+ 

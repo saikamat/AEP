@@ -1,0 +1,5 @@
+14:50:06 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:50:20 INFO  : XSDB server has started successfully.
+14:50:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:37 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:53:38 INFO  : XSDB server has started successfully.
